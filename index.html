@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>DevConf 2026</title>
 		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="shortcut icon" href="./assets/logo-mini.png" type="image/x-icon">
 
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -163,6 +164,103 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- AI generated form section start -->
+
+			<section class="contact">
+				<div class="container">
+					<div class="contact-wrapper">
+						<div class="contact-info">
+							<span class="section-eyebrow">Get In Touch</span>
+							<h2>Let's Talk</h2>
+							<p>
+								Questions about tickets, sponsoring a track, or speaking on
+								stage? Send us a note and we'll route it to the right person.
+							</p>
+							<div class="contact-detail">
+								<span class="contact-detail-label">Email</span>
+								<span class="contact-detail-value">hello@devconf.dev</span>
+							</div>
+						</div>
+						<form class="contact-form" action="#" method="POST">
+							<div class="form-topic">
+								<label class="form-topic-label">What's this about?</label>
+								<div class="topic-pills">
+									<div class="topic-pill">
+										<input
+											type="radio"
+											name="topic"
+											id="topic-general"
+											checked />
+										<label for="topic-general">General</label>
+									</div>
+									<div class="topic-pill">
+										<input type="radio" name="topic" id="topic-sponsor" />
+										<label for="topic-sponsor">Sponsorship</label>
+									</div>
+									<div class="topic-pill">
+										<input type="radio" name="topic" id="topic-speaking" />
+										<label for="topic-speaking">Speaking</label>
+									</div>
+									<div class="topic-pill">
+										<input type="radio" name="topic" id="topic-press" />
+										<label for="topic-press">Press</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group">
+									<label for="name">Full name</label>
+									<input
+										type="text"
+										id="name"
+										name="name"
+										placeholder="Ada Lovelace"
+										required />
+								</div>
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input
+										type="email"
+										id="email"
+										name="email"
+										placeholder="ada@example.com"
+										required />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea
+									id="message"
+									name="message"
+									rows="5"
+									placeholder="Tell us a bit about what you need..."
+									required></textarea>
+							</div>
+							<button type="submit" class="btn">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- AI generated form section end -->
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-content">
+						<div class="copyright">
+							<p>&copy; 2026 DevConf. All rights reserved.</p>
+						</div>
+						<div class="company-logo">
+								<img src="./assets/footer-logo.png" alt="Company Logo">
+							</div>
+						<div class="links">
+							<a href="">Privacy Policy</a>
+							<a href="">Terms of Service</a>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</main>
 	</body>
 </html>

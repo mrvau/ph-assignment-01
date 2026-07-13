@@ -244,3 +244,197 @@ nav ul li a:hover {
 	color: #0d1b2a;
 	border: 1px solid #0d1b2a;
 }
+
+.footer {
+	background-color: #0d1b2a;
+	padding: 50px 0;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright, .links a {
+	color: #fff;
+}
+
+.links a {
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 28px;
+}
+
+/* AI Generate form section styles */
+
+.contact {
+	margin-top: 80px;
+	background-color: #0d1b2a;
+	padding: 80px 0;
+}
+ 
+.contact-wrapper {
+	display: grid;
+	grid-template-columns: 0.85fr 1.15fr;
+	align-items: start;
+	gap: 60px;
+}
+ 
+.section-eyebrow {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 700;
+	color: #2563eb;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}
+ 
+.contact-info h2 {
+	font-size: 42px;
+	color: #fff;
+	margin-bottom: 16px;
+}
+ 
+.contact-info > p {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #575757;
+	margin-bottom: 32px;
+}
+ 
+.contact-detail {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding-top: 24px;
+	border-top: 1px solid #e5e7eb;
+}
+ 
+.contact-detail-label {
+	font-size: 12px;
+	font-weight: 600;
+	color: #888888;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+ 
+.contact-detail-value {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+ 
+.contact-form {
+	background-color: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	padding: 36px;
+}
+ 
+.form-topic {
+	margin-bottom: 24px;
+}
+ 
+.form-topic-label {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	color: #0d1b2a;
+	margin-bottom: 10px;
+}
+ 
+.topic-pills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+ 
+.topic-pill {
+	position: relative;
+}
+ 
+.topic-pill input[type="radio"] {
+	position: absolute;
+	inset: 0;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+ 
+.topic-pill label {
+	display: inline-block;
+	padding: 8px 18px;
+	border: 1px solid #e5e7eb;
+	border-radius: 999px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #575757;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+ 
+.topic-pill input[type="radio"]:checked + label {
+	background-color: #0d1b2a;
+	border-color: #0d1b2a;
+	color: #fff;
+}
+ 
+.topic-pill input[type="radio"]:focus-visible + label {
+	outline: 2px solid #1d4ed8;
+	outline-offset: 2px;
+}
+ 
+.form-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+ 
+.form-group {
+	margin-bottom: 20px;
+}
+ 
+.form-group label {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	color: #0d1b2a;
+	margin-bottom: 8px;
+}
+ 
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 12px 14px;
+	border: 1px solid #e5e7eb;
+	border-radius: 6px;
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+	color: #0d1b2a;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+ 
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+	color: #a3a3a3;
+}
+ 
+.form-group input:focus,
+.form-group textarea:focus {
+	outline: none;
+	border-color: #1d4ed8;
+	box-shadow: 0 0 0 3px rgba(29, 78, 216, 0.15);
+}
+ 
+.form-group textarea {
+	resize: vertical;
+	min-height: 120px;
+}
+ 
+.contact-form .btn {
+	width: 100%;
+	font-size: 15px;
+	margin-top: 4px;
+}
