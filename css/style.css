@@ -61,12 +61,16 @@ nav ul li a:hover {
 	color: #fff;
 }
 
+.hero .container {
+	height: 100%;
+}
+
 .hero .hero-parent {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	height: 800px;
+	height: 90%;
 	padding-top: 200px;
 }
 
