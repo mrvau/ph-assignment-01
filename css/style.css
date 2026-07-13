@@ -24,6 +24,12 @@ body {
 	cursor: pointer;
 }
 
+.btn-outline {
+	background: none;
+	border: 1px solid #1d4ed8;
+	color: #1d4ed8;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -71,7 +77,7 @@ nav ul li a:hover {
 	justify-content: space-between;
 	align-items: center;
 	height: 90%;
-	padding-top: 200px;
+	padding-top: 130px;
 }
 
 .hero-content h1 {
@@ -107,7 +113,7 @@ nav ul li a:hover {
 }
 
 .speakers-card {
-	border: 1px solid #e5e7eb; 
+	border: 1px solid #e5e7eb;
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -119,7 +125,7 @@ nav ul li a:hover {
 .field {
 	display: inline-block;
 	font-size: 12px;
-	color: #2563EB;
+	color: #2563eb;
 	font-weight: 600;
 	margin-bottom: 8px;
 }
@@ -134,4 +140,107 @@ nav ul li a:hover {
 .role {
 	font-size: 14px;
 	color: #575757;
+}
+
+.pricing {
+	margin: 80px 0;
+}
+
+.pricing-content {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.pricing-content h2 {
+	font-size: 48px;
+	margin-bottom: 12px;
+	color: #0d1b2a;
+}
+
+.pricing-content p {
+	color: #575757;
+}
+
+.pricing-card-container {
+	display: flex;
+	justify-content: center;
+	gap: 28px;
+}
+
+.pricing-card {
+	border: 1px solid #e5e7eb;
+	padding: 26px 36px;
+	border-radius: 8px;
+	width: 28%;
+}
+
+.pricing-card hr {
+	border: none;
+	height: 1px;
+	background-color: #e5e7eb;
+}
+
+.pricing-header {
+	margin-bottom: 18px;
+}
+
+.plan {
+	font-size: 13px;
+	font-weight: 600;
+	color: #888888;
+	margin-bottom: 6px;
+}
+
+.pricing-header h3 {
+	font-size: 44px;
+	font-weight: 800;
+	margin-bottom: 6px;
+}
+
+.plan-type {
+	font-size: 13px;
+	font-weight: 500;
+	color: #888888;
+}
+
+.pricing-feature {
+	margin: 14px 0;
+}
+
+.pricing-feature ul {
+	list-style-position: inside;
+}
+
+.pricing-feature ul li {
+	font-size: 14px;
+	color: #333333;
+	margin-bottom: 16px;
+}
+
+.pricing-feature ul li::marker {
+	color: #60a5fa;
+}
+
+.pricing-btn .btn {
+	width: 100%;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.pricing-card:nth-child(2) {
+	background-color: #0d1b2a;
+	color: #fff;
+}
+
+.pricing-card:nth-child(2) .plan {
+	color: #93c5fd;
+}
+
+.pricing-card:nth-child(2) ul li {
+	color: #fff;
+}
+
+.pricing-card:last-child .btn-outline {
+	color: #0d1b2a;
+	border: 1px solid #0d1b2a;
 }
