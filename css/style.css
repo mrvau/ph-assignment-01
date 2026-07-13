@@ -8,6 +8,12 @@ body {
 	font-family: "Inter", sans-serif;
 }
 
+hr {
+	border: none;
+	height: 1px;
+	background-color: #e5e7eb;
+}
+
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -174,12 +180,6 @@ nav ul li a:hover {
 	width: 28%;
 }
 
-.pricing-card hr {
-	border: none;
-	height: 1px;
-	background-color: #e5e7eb;
-}
-
 .pricing-header {
 	margin-bottom: 18px;
 }
@@ -245,28 +245,7 @@ nav ul li a:hover {
 	border: 1px solid #0d1b2a;
 }
 
-.footer {
-	background-color: #0d1b2a;
-	padding: 50px 0;
-}
-
-.footer-content {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.copyright, .links a {
-	color: #fff;
-}
-
-.links a {
-	text-decoration: none;
-	display: inline-block;
-	margin-left: 28px;
-}
-
-/* AI Generate form section styles */
+/* AI Generate form section styles start */
 
 .contact {
 	margin-top: 80px;
@@ -439,3 +418,54 @@ nav ul li a:hover {
 	font-size: 15px;
 	margin-top: 4px;
 }
+
+/* AI Generate form section styles end */
+
+.footer {
+	background-color: #0d1b2a;
+}
+
+.footer .container {
+	border-top: 1px solid #e5e7eb;
+	padding: 30px 0;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.copyright, .links a {
+	color: #fff;
+}
+
+.links a {
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 28px;
+}
+
+.footer-icons a {
+	color: #fff;
+	font-size: 28px;
+}
+
+.bar {
+	height: 1px;
+	margin: 30px auto;
+	border-radius: 10px;
+	background-color: #e5e7eb;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+}
+
