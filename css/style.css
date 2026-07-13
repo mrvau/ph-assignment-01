@@ -71,6 +71,15 @@ nav ul li a:hover {
 	height: 90vh;
 	text-align: center;
 	color: #fff;
+	position: relative;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hero .container {
@@ -84,6 +93,8 @@ nav ul li a:hover {
 	align-items: center;
 	height: 90%;
 	padding-top: 130px;
+	position: relative;
+	z-index: 1;
 }
 
 .hero-content h1 {
